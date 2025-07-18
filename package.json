@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test:server": "cd server && jest",
+    "test:client": "cd client && jest",
+    "test:e2e": "cd client && npx cypress run"
+  }
+}
